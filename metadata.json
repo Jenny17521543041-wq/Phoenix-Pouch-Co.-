@@ -1,0 +1,6 @@
+{
+  "name": "Phoenix Pouch Co.",
+  "description": "US Contract Manufacturer & Private Label OEM for Nicotine, Nootropic, and Caffeine Pouches in Phoenix, Arizona.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
