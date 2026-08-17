@@ -11,7 +11,7 @@ export const CertificationBadges: React.FC = () => {
           <svg viewBox="0 0 240 90" className="w-full h-full object-contain" fill="none" xmlns="http://www.w3.org/2000/svg">
             {/* Red Box Left */}
             <rect x="5" y="15" width="145" height="60" fill="#C8102E" />
-            <text x="15" y="34" fill="#FFFFFF" fontSize="11" fontWidth="bold" fontFamily="Arial, sans-serif" fontWeight="bold">ISO 9001:2015</text>
+            <text x="15" y="34" fill="#FFFFFF" fontSize="11" fontFamily="Arial, sans-serif" fontWeight="bold">ISO 9001:2015</text>
             <text x="15" y="49" fill="#FFFFFF" fontSize="10" fontFamily="Arial, sans-serif" fontWeight="bold">BUREAU VERITAS</text>
             <text x="15" y="62" fill="#FFFFFF" fontSize="9" fontFamily="Arial, sans-serif">Certification</text>
             

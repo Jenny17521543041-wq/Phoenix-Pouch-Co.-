@@ -32,19 +32,6 @@ export const QuoteCTASection: React.FC<QuoteCTASectionProps> = ({
             <p className="text-neutral-300 text-base sm:text-lg leading-relaxed">
               {subtitle}
             </p>
-
-            {/* Quick Guarantees */}
-            <div className="pt-2 grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs text-neutral-300 font-medium">
-              <div>
-                <span>5-7 Day Sample Delivery</span>
-              </div>
-              <div>
-                <span>2-3 Week Lead Time</span>
-              </div>
-              <div>
-                <span>cGMP & FDA Facility</span>
-              </div>
-            </div>
           </div>
 
           {/* Action Buttons */}

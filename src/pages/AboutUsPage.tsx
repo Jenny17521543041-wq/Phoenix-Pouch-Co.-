@@ -27,7 +27,7 @@ const TEAM_MEMBERS = [
     title: "VP of Operations & Supply Chain",
     roleCategory: "MANUFACTURING OPERATIONS",
     image: "/src/assets/images/team_ops_david_1786343116660.jpg",
-    bio: "20+ years managing high-speed automated packaging plants. Responsible for 500M+ pouch annual throughput, ERP batch genealogy tracking, and dock dispatch."
+    bio: "20+ years managing high-speed automated packaging plants. Responsible for continuous pouch manufacturing throughput, ERP batch genealogy tracking, and dock dispatch."
   },
   {
     name: "Sarah Jenkins",
@@ -56,11 +56,6 @@ export const AboutUsPage: React.FC<AboutUsPageProps> = ({ onNavigate }) => {
         <div className="absolute inset-0 bg-gradient-to-t from-neutral-950/50 via-transparent to-neutral-950/20" />
 
         <div className="max-w-[1550px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-6">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 bg-neutral-950/60 backdrop-blur-sm rounded-full border border-white/20 text-xs font-mono text-white font-medium shadow-sm">
-            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-            <span>50,000 SQ FT USA MANUFACTURING PLANT</span>
-          </div>
-
           <h1 className="text-4xl sm:text-6xl font-black text-white tracking-tight drop-shadow-[0_2px_12px_rgba(0,0,0,0.95)]">
             About Phoenix Pouch Co.
           </h1>
@@ -69,12 +64,12 @@ export const AboutUsPage: React.FC<AboutUsPageProps> = ({ onNavigate }) => {
             America's premier contract manufacturer dedicated strictly to modern oral pouch formulations—Nicotine, Nootropics, and Caffeine.
           </p>
 
-          <div className="flex flex-wrap items-center gap-6 text-sm text-neutral-100 pt-6 font-mono font-medium drop-shadow-[0_1px_4px_rgba(0,0,0,0.95)]">
-            <span>50,000 sq ft Plant in Phoenix, AZ</span>
+          <div className="flex flex-wrap items-center gap-6 text-sm text-neutral-100 pt-4 font-mono font-medium drop-shadow-[0_1px_4px_rgba(0,0,0,0.95)]">
+            <span>Phoenix, AZ Manufacturing Hub</span>
             <span className="text-neutral-400">•</span>
             <span>cGMP & FDA Registered</span>
             <span className="text-neutral-400">•</span>
-            <span>500M+ Annual Pouches Output</span>
+            <span>Automated Pouch Packing Lines</span>
           </div>
         </div>
       </section>

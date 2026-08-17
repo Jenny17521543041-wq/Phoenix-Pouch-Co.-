@@ -14,8 +14,8 @@ export const FACTORY_INFO = {
   phone: "+1 (602) 555-0199",
   whatsapp: "+1 (602) 555-0199",
   wechat: "PhoenixPouch_OEM",
-  facilitySize: "50,000 sq ft cGMP Facility",
-  annualCapacity: "500M+ Pouches / Year",
+  facilitySize: "cGMP Cleanroom Facility",
+  annualCapacity: "High-Speed Automated Capacity",
   activeLines: "10 Automated Packaging Lines",
   sampleTurnaround: "5-7 Business Days",
   productionLeadTime: "2-3 Weeks",
@@ -316,18 +316,11 @@ export const SERVICE_MODELS = [
 
 export const WHY_CHOOSE_US = [
   {
-    titleLine1: "100% Made in",
-    titleLine2: "Phoenix, USA",
-    title: "100% Made in Phoenix, USA",
-    description: "Eliminate overseas shipping delays, customs hold-ups, and quality uncertainties. Our Phoenix facility operates under strict US labor & manufacturing standards.",
-    icon: "MapPin"
-  },
-  {
-    titleLine1: "cGMP & ISO 9001",
-    titleLine2: "Certified",
-    title: "cGMP & ISO 9001 Certified",
-    description: "Cleanroom environment with pharmaceutical-grade standards. Fully registered FDA contract manufacturing facility.",
-    icon: "Award"
+    titleLine1: "100% US Made &",
+    titleLine2: "cGMP Quality Guarantee",
+    title: "100% US Made & cGMP Quality Guarantee",
+    description: "Manufactured in Phoenix, Arizona under strict cGMP and ISO standards. Eliminates overseas shipping delays and customs risks, with every production lot backed by independent laboratory Certificate of Analysis (COA) testing.",
+    icon: "ShieldCheck"
   },
   {
     titleLine1: "Custom Formulations",
@@ -337,25 +330,11 @@ export const WHY_CHOOSE_US = [
     icon: "Sparkles"
   },
   {
-    titleLine1: "Flexible MOQs",
-    titleLine2: "for Growth",
-    title: "Flexible MOQs for Growth",
-    description: "Whether you need a 10,000-can pilot batch or 1,000,000+ monthly mass production, we scale seamlessly with your brand.",
+    titleLine1: "Flexible MOQs &",
+    titleLine2: "Rapid Production",
+    title: "Flexible MOQs & Rapid Production",
+    description: "Whether you need a 10,000-can pilot batch or high-volume commercial scaling, our automated lines deliver with fast 5-7 day sample turnaround and 2-3 week production lead times.",
     icon: "TrendingUp"
-  },
-  {
-    titleLine1: "Rapid 2-3 Week",
-    titleLine2: "Production",
-    title: "Rapid 2-3 Week Production",
-    description: "Fast-track your product to market with 5-7 day sample delivery and 2-3 week production lead times.",
-    icon: "Zap"
-  },
-  {
-    titleLine1: "End-to-End Quality",
-    titleLine2: "Guarantee",
-    title: "End-to-End Quality Guarantee",
-    description: "Every single production lot is backed by an independent laboratory Certificate of Analysis (COA) for purity and dose uniformity.",
-    icon: "ShieldCheck"
   }
 ];
 

@@ -199,39 +199,25 @@ export const ProductionProcessPage: React.FC<ProductionProcessPageProps> = ({ on
 
         <div className="max-w-[1550px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-8">
           
-          {/* Key Facility & Quality Certification Endorsement Badges */}
-          <div className="flex flex-wrap items-center gap-3">
-            <div className="inline-flex items-center gap-2 px-3 py-1 bg-neutral-950/60 backdrop-blur-sm rounded-full border border-white/20 text-xs font-mono text-white font-medium">
-              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-              <span>50,000 SQ FT PHOENIX PLANT</span>
-            </div>
-            <div className="inline-flex items-center gap-2 px-3 py-1 bg-neutral-950/60 backdrop-blur-sm rounded-full border border-white/20 text-xs font-mono text-white font-medium">
-              <span>ISO CLASS 7/8 CLEANROOM</span>
-            </div>
-            <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#c94a29]/90 backdrop-blur-sm rounded-full border border-[#c94a29] text-xs font-mono text-white font-bold">
-              <span>cGMP 21 CFR 111 & 117 COMPLIANT</span>
-            </div>
-          </div>
-
           <div className="space-y-4 max-w-4xl">
             <h1 className="text-4xl sm:text-6xl font-black text-white tracking-tight leading-[1.1] drop-shadow-[0_2px_12px_rgba(0,0,0,0.95)]">
               Production Process & Quality Control
             </h1>
 
             <p className="text-neutral-100 text-lg sm:text-xl max-w-3xl leading-relaxed font-normal drop-shadow-[0_2px_8px_rgba(0,0,0,0.95)]">
-              Inside our 50,000 sq ft contract manufacturing plant in Phoenix, Arizona—engineered for pharmaceutical-grade precision, 100% batch genealogy traceability, and 500M+ annual pouch capacity.
+              Inside our contract manufacturing plant in Phoenix, Arizona—engineered for pharmaceutical-grade precision, 100% batch genealogy traceability, and high-speed automated pouch capacity.
             </p>
           </div>
 
           {/* High Contrast Stat Counters - Flat, No Box Frames, No Top Divider Line */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 sm:gap-10 pt-4 max-w-5xl">
             <div className="space-y-1">
-              <div className="text-2xl sm:text-3xl font-black text-white font-mono drop-shadow-[0_2px_8px_rgba(0,0,0,0.95)]">50,000 sq ft</div>
-              <div className="text-xs sm:text-sm text-neutral-100 font-medium drop-shadow-[0_1px_4px_rgba(0,0,0,0.95)]">cGMP Cleanroom Facility</div>
+              <div className="text-2xl sm:text-3xl font-black text-white font-mono drop-shadow-[0_2px_8px_rgba(0,0,0,0.95)]">ISO 7/8</div>
+              <div className="text-xs sm:text-sm text-neutral-100 font-medium drop-shadow-[0_1px_4px_rgba(0,0,0,0.95)]">Cleanroom Standard</div>
             </div>
             <div className="space-y-1">
-              <div className="text-2xl sm:text-3xl font-black text-[#ff6b4a] font-mono drop-shadow-[0_2px_8px_rgba(0,0,0,0.95)]">500M+ Pouches</div>
-              <div className="text-xs sm:text-sm text-neutral-100 font-medium drop-shadow-[0_1px_4px_rgba(0,0,0,0.95)]">Annual Capacity</div>
+              <div className="text-2xl sm:text-3xl font-black text-[#ff6b4a] font-mono drop-shadow-[0_2px_8px_rgba(0,0,0,0.95)]">24/7</div>
+              <div className="text-xs sm:text-sm text-neutral-100 font-medium drop-shadow-[0_1px_4px_rgba(0,0,0,0.95)]">Quality Monitoring</div>
             </div>
             <div className="space-y-1">
               <div className="text-2xl sm:text-3xl font-black text-white font-mono drop-shadow-[0_2px_8px_rgba(0,0,0,0.95)]">1,200 / min</div>
@@ -249,13 +235,10 @@ export const ProductionProcessPage: React.FC<ProductionProcessPageProps> = ({ on
       {/* SECTION 1: Production Process Overview */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12 sm:space-y-16">
         
-        <div className="space-y-4">
+        <div>
           <h2 className="text-3xl sm:text-4xl font-black text-neutral-950">
             Production Process Overview
           </h2>
-          <p className="text-neutral-600 text-base max-w-2xl">
-            Select a manufacturing step to view detailed operational specifications and cleanroom photography.
-          </p>
         </div>
 
         {/* Drag-to-Scroll Horizontal Step Nav Tabs */}
@@ -321,17 +304,11 @@ export const ProductionProcessPage: React.FC<ProductionProcessPageProps> = ({ on
                 <span>View Fullscreen</span>
               </button>
             </div>
-            <div className="text-xs text-neutral-500 font-mono">
-              Quality Checkpoint: {activeStep.qcCheckpoint}
-            </div>
           </div>
 
           {/* Right: Step Description */}
           <div className="lg:col-span-5 space-y-8">
             <div className="space-y-4">
-              <div className="text-xs font-mono font-bold text-[#c94a29] uppercase tracking-wider">
-                Step 0{activeStep.id} of 0{PROCESS_STEPS.length}
-              </div>
               <h3 className="text-3xl font-black text-neutral-950">
                 {activeStep.title}
               </h3>
@@ -363,24 +340,20 @@ export const ProductionProcessPage: React.FC<ProductionProcessPageProps> = ({ on
       {/* SECTION 2: Quality Control System */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
         
-        <div className="space-y-4">
+        <div>
           <h2 className="text-3xl sm:text-4xl font-black text-neutral-950">
             Quality Control System
           </h2>
-          <p className="text-neutral-600 text-base max-w-3xl leading-relaxed">
-            Our multi-tier quality architecture covers incoming raw material inspection (IQC), real-time line auditing (IPQC), outgoing batch certification (OQC), and a 24-month retention sample vault.
-          </p>
         </div>
 
         {/* 4 Quality Pillars - Open Grid Layout */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 sm:gap-16">
           {QC_PILLARS.map((pillar) => (
             <div key={pillar.code} className="space-y-4 pt-2">
-              <div className="flex items-center justify-between">
+              <div>
                 <h3 className="text-2xl font-black text-neutral-950">
                   {pillar.name}
                 </h3>
-                <span className="text-xs font-mono font-bold text-[#c94a29]">{pillar.code}</span>
               </div>
 
               <ul className="space-y-3 pt-1">
@@ -401,13 +374,10 @@ export const ProductionProcessPage: React.FC<ProductionProcessPageProps> = ({ on
       <section className="w-full bg-neutral-950 text-white py-24 sm:py-32 lg:py-36">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-20">
           
-          <div className="space-y-4">
+          <div>
             <h2 className="text-3xl sm:text-4xl font-black text-white">
               Facility & Production Equipment
             </h2>
-            <p className="text-neutral-400 text-base max-w-3xl leading-relaxed">
-              Located in Phoenix, Arizona — featuring 50,000 sq ft of HEPA-filtered cleanrooms and high-speed automated pouching, homogenizing, and packaging machinery fleet.
-            </p>
           </div>
 
           {/* Cleanroom Environment Row */}
@@ -422,15 +392,15 @@ export const ProductionProcessPage: React.FC<ProductionProcessPageProps> = ({ on
               
               <div className="grid grid-cols-3 gap-6 pt-4 text-xs font-mono text-neutral-400">
                 <div>
-                  <div className="text-white text-base font-bold">ISO Class 7/8</div>
+                  <div className="text-[#c94a29] text-base font-bold">ISO Class 7/8</div>
                   <div>Air Cleanliness</div>
                 </div>
                 <div>
-                  <div className="text-white text-base font-bold">20°C ± 2°C</div>
+                  <div className="text-[#c94a29] text-base font-bold">20°C ± 2°C</div>
                   <div>Temp Control</div>
                 </div>
                 <div>
-                  <div className="text-white text-base font-bold">40% - 50%</div>
+                  <div className="text-[#c94a29] text-base font-bold">40% - 50%</div>
                   <div>Humidity</div>
                 </div>
               </div>
@@ -463,11 +433,10 @@ export const ProductionProcessPage: React.FC<ProductionProcessPageProps> = ({ on
                   />
 
                   <div className="space-y-3 text-white">
-                    <div className="flex items-center justify-between">
+                    <div>
                       <h4 className="text-xl font-bold text-white">
                         {equip.name}
                       </h4>
-                      <span className="text-xs font-mono text-[#c94a29] font-bold">{equip.capacity}</span>
                     </div>
 
                     <p className="text-sm text-neutral-400 leading-relaxed">
